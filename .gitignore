@@ -1,0 +1,25 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+npm-debug.log*
+.vite
+
+# editor
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# build outputs
+dist-apk
+android/build
+android/assets/www
+*.apk
+
+# 签名文件绝不入库
+*.jks
+*.keystore
+android/whale-release.jks
